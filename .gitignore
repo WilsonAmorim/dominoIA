@@ -1,0 +1,18 @@
+cd C:\dominoIA
+@"
+node_modules/
+.expo/
+dist/
+web-build/
+android/build/
+android/app/build/
+android/.gradle/
+android/.cxx/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+.env*.local
+"@ | Out-File -FilePath .gitignore -Encoding utf8
